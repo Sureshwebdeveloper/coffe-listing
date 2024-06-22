@@ -20,7 +20,7 @@ const Product = ({ coffee }) => {
               </h4>
             </div>
             <p className="flex space-x-1 lg:space-x-5 items-center mt-3">
-              {data.votes > 1 ? <img src={starfill} /> : <img src={unfill} />}
+              {data.votes > 1 ? <img src={starfill} alt="star fill svg"/> : <img src={unfill} alt="star unfill svg"/>}
               <span className="text-[#FEF7EE]">{data.rating}</span>
               <span className="text-[#6F757C] mx-2">({data.votes} Votes)</span>
               {data.available === false ? <span className="text-[#ED735D]">Sold Out</span> : ""}

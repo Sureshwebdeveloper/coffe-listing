@@ -50,15 +50,15 @@ const Container = () => {
             alt="image layer"
             className="absolute z-10 right-0"
           />
-          <h1 className="text-white font-medium text-[30px] mx-auto mt-10 z-20">
+          <h1 className="text-white font-bold font-dmsans  text-[30px] mx-auto mt-10 z-20">
             Our Collection
           </h1>
-          <p className="text-[#FEF7EE] m-5 text-[18px] z-20">
+          <p className="text-[#6F757C] text-center text-lg font-dmsans max-w-[250px] md:max-w-[450px] lg:max-w-[500px] font-semibold  m-5  z-20">
             Introducing our Coffee Collection, a selection of unique coffees
             from different roast types and origins, expertly roasted in small
             batches and shipped fresh weekly.
           </p>
-          <div className="flex  justify-around space-x-14 items-center">
+          <div className="flex justify-around font-dmsans space-x-8 items-center">
             <button
               className={
                 selected === false
